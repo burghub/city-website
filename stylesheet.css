@@ -1,0 +1,87 @@
+body {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0px;
+    color: #222222;
+}
+
+header {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title, #subtitle {
+    background: #F5F5F5;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 500px;
+    font-size: 3rem;
+}
+
+#subtitle {
+    font-size: 1.2rem;
+}
+
+.activities {
+    background-color: #DCEDC8;
+    padding: 20px 0px 0px 0px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #222222;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 40px;
+}
+
+.business-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.business-card {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    background-color: #BBDEFB;
+    padding: 15px;
+    max-width: 400px;
+    border-bottom: 4px solid #2196F3;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+#guide-img {
+    width: 150px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#red-color {
+    color: #E53935;
+}
